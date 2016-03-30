@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script> 
+
+var answer = prompt("Please enter a numer with four digits.");
+
+var thoumod = answer%1000 
+var hunmod = thoumod%100
+var tenmod = hunmod%10
+var onemod = onemod%1
+
+console.log((answer - thoumod) + " thousands");
+console.log((thoumod - hunmod) + " hundreds");
+console.log((hunmod - tenmod) + " tens");
+console.log((tenmod - onemod) + " ones");
+
+
+</script>
+</body>
+</html>
